@@ -1,0 +1,154 @@
+body{
+    background-color: antiquewhite;
+}
+.yu{
+    display: flex;
+    justify-content: start;
+    background-color: aliceblue;
+  background-size: 52%;
+}
+.fo{
+ font-size: x-large;
+
+}
+.btn {
+  background: #81de47;
+  background-image: -webkit-linear-gradient(top, #81de47, #3d7fa8);
+  background-image: -moz-linear-gradient(top, #81de47, #3d7fa8);
+  background-image: -ms-linear-gradient(top, #81de47, #3d7fa8);
+  background-image: -o-linear-gradient(top, #81de47, #3d7fa8);
+  background-image: linear-gradient(to bottom, #81de47, #3d7fa8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 3px 4px 5px #702970;
+  -webkit-box-shadow: 0px 1px 3px #242611;
+  -moz-box-shadow: 0px 1px 3px #242611;
+  box-shadow: 0px 1px 3px #242611;
+  font-family: Courier New;
+  color: #1c131c;
+  font-size: 10px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.io{
+  font-size: xx-large;
+  background-color: white;
+}
+.il{
+  font-size: large;
+}
+.imgSlider{
+  width: 98%;
+  height: 590px;
+  background-image: url("mg/sporlab-f8ld5zt3a3k-unsplash.jpg");
+  background-size: 100% 100%;
+animation: changeImage 11s  linear infinite ;
+}
+@keyframes changeImage{
+0%{
+  background-image: url("mg/sporlab-f8ld5zt3a3k-unsplash.jpg");
+}
+25%{
+  background-image: url("mg/seth-doyle-zf9_yiAekJs-unsplash.jpg");
+}
+50%{
+  background-image: url("mg/larm-rmah-AEaTUnvneik-unsplash.jpg");
+}
+75%{
+  background-image: url("mg/DRN_fullwidth2_1500.jpg");
+}
+100%{
+  background-image: url("mg/doug-linstedt-jEEYZsaxbH4-unsplash.jpg");
+}
+}
+.lp{
+  height: 550px;
+  width: 1414px;
+}
+.cov{
+  height: 290px;
+  width: 300px;
+
+}
+
+.cov:hover{
+  transform: scale(1.08);
+}
+
+.ip{
+  background-color: white;
+  font-size: xx-large;
+  font-style: italic;
+  color: #81de47;
+}
+.gal{
+  background-color: white;
+  font-size: xx-large;
+  font-style: italic;
+  color: #81de47;
+}
+.vas{
+  display: flex;
+  
+}
+.box{
+  background-color: white;
+  font-family: 'Praise', cursive;
+}
+.icon{
+  display: flex;
+  justify-content: space-between;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightcyan;
+  /* height: 250px;
+  width: 250px; */
+}
+#instagram{
+  font-size: xx-large;
+  color: blue;
+  font-family: 'Praise', cursive;
+}
+#facebook{
+  font-size: xx-large;
+  color: blue;
+  font-family: 'Praise', cursive;
+}
+#link{
+  font-size: xx-large;
+  color: blue;
+  font-family: 'Praise', cursive;
+}#youtube{
+  font-size: xx-large;
+  color: blue;
+  font-family: 'Praise', cursive;
+}
+.oh{
+
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.ty{
+  background-color: white;
+}
+.il{
+  font-size: large;
+  color: goldenrod;
+}
+.kl{
+  background-color: white;
+}
